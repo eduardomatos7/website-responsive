@@ -202,13 +202,13 @@ footer .btn {
 
 @media screen and (min-width: 48rem){
     .hero-content h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     .hero-content h1, .newsletter-text p{
         line-height: 4rem;
     }
     .hero-content p {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .speakers-grid, .schedule-grid {
         display: flex;
@@ -216,46 +216,47 @@ footer .btn {
         justify-content: center;
     }
     .btn {
-        padding: .7rem 1.5rem;
-        font-size: 1.3rem;
+        padding: .5rem 1.2rem;
+        font-size: 1rem;
     }
     h2 {
-        font-size: 2rem;
-    }
-    h3 {
         font-size: 1.5rem;
     }
+    h3 {
+        font-size: 1.1rem;
+    }
     .schedule-item p, .speaker-card p {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .speaker-card, .schedule-item {
-        width: 22rem;
-        height: 17rem;
+        width: 20rem;
+        height: 15rem;
     }
     .schedule-item {
         height: auto;
     }
     .speaker-card img {
-        width: 9.5rem;
+        width: 8rem;
     }
 
     .newsletter-text {
         gap: 2rem;
     }
     .newsletter-text p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 2rem;
     }
     .newsletter-text h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .newsletter-form input {
-        padding: 1rem;
+        padding: .8rem;
+        font-size: .8rem;
     }
     .newsletter-form label {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .footer p {
