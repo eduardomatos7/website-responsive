@@ -190,6 +190,12 @@ h3 {
     border-radius: .5rem;
     padding: .5rem 1rem;
     font-size: .8rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+.btn:hover {
+    transition: .3s ease-out;
+    background-color: #3e34ff;
 }
 form .btn, footer .btn {
     margin: 1rem 0 3rem;
@@ -365,5 +371,33 @@ footer .btn {
 
     .footer {
         margin-top: 5rem;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark){
+    body {
+        background-color: var(--color-dark);
+    }
+    .speakers, .schedule {
+        color: var(--color-white);
+    }
+    .speaker-card, .schedule-item {
+        background-color: var(--color-black);
+        color: var(--color-white);
+    }
+    .speaker-card p, .schedule-item p {
+        color: var(--color-light)
+    }
+
+    .newsletter-text h2{
+        color: var(--color-white);
+    }
+    .newsletter-form label, .footer p {
+        color: var(--color-light);
+    }
+
+    .newsletter-form input {
+        border: 1px solid #626262;
+        background-color: var(--color-black);
     }
 }
