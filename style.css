@@ -51,13 +51,11 @@ body {
 .hero-content h1 {
     font-size: 2rem;
 }
-.hero-content h1, .newsletter-text h2{
+.hero-content h1, .newsletter-text p{
     line-height: 3rem;
     font-weight: 700;
 }
-.hero-content p {
-    line-height: 2rem;
-}
+
 .hero-content a {
     text-decoration: none;
     color: var(--color-light);
@@ -106,7 +104,6 @@ body {
 }
 
 .schedule-item {
-    width: 20rem;
     height: auto;
     padding: 2rem;
 }
@@ -180,7 +177,6 @@ body {
     color: var(--color-white);
     text-decoration: none;
     border: none;
-    height: 2rem;
     border-radius: .5rem;
     padding: .5rem 1rem;
     font-size: .8rem;
@@ -202,4 +198,67 @@ form .btn, footer .btn {
 
 footer .btn {
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 48rem){
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    .hero-content h1, .newsletter-text p{
+        line-height: 4rem;
+    }
+    .hero-content p {
+        font-size: 1.5rem;
+    }
+    .speakers-grid, .schedule-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .btn {
+        padding: .7rem 1.5rem;
+        font-size: 1.3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .schedule-item p, .speaker-card p {
+        font-size: 1rem;
+    }
+
+    .speaker-card, .schedule-item {
+        width: 22rem;
+        height: 17rem;
+    }
+    .schedule-item {
+        height: auto;
+    }
+    .speaker-card img {
+        width: 9.5rem;
+    }
+
+    .newsletter-text {
+        gap: 2rem;
+    }
+    .newsletter-text p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .newsletter-text h2 {
+        font-size: 2rem;
+    }
+
+    .newsletter-form input {
+        padding: 1rem;
+    }
+    .newsletter-form label {
+        font-size: 1.3rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
 }
